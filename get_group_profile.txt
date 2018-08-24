@@ -1,0 +1,9 @@
+#Gets the user profile of a member of a group that the bot is in. 
+#This can be the user ID of a user who has not added the bot as a friend or has blocked the bot.
+
+    profile2 = line_bot_api.get_group_member_profile(event.source.group_id, event.source.user_id)
+    print(profile2.display_name)
+    print(profile2.user_id)
+    print(profile2.picture_url)
+	
+
