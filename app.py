@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Aug 18 01:00:17 2018
-
-@author: linzino
-"""
-
-
-
-
+#use ngrok
 from flask import Flask, request, abort
 
 from linebot import (
